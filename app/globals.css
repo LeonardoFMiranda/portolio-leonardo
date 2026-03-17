@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+
+body {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
