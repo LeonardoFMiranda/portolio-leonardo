@@ -1,15 +1,12 @@
 "use client";
-import { useRef } from "react";
 import { CTAButton } from "../ui/CTAButton";
 import { motion } from "framer-motion";
 import TypeText from "../ui/TypeTextAnimation";
 
 export const Hero = () => {
-    const container = useRef(null);
-
 
     return (
-        <section ref={container} className="relative min-h-screen flex flex-col justify-center items-center px-6 overflow-hidden" id="home">
+        <section className="relative min-h-screen flex flex-col justify-center items-center px-6 overflow-hidden" id="home">
             {/* Subtle Background Gradient */}
             <div className="hero-bg absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 blur-[120px] rounded-full opacity-0" />
 

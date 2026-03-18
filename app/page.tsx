@@ -1,5 +1,3 @@
-"use client";
-import { useEffect } from "react";
 import { Contact } from "./components/sections/Contact";
 import { Differentials } from "./components/sections/Differentials";
 import { Hero } from "./components/sections/Hero";
@@ -8,7 +6,6 @@ import { Services } from "./components/sections/Services";
 import SmoothScroll from "./components/SmoothScroll";
 import { Footer } from "./components/ui/Footer";
 import { Navbar } from "./components/ui/Navbar";
-import Lenis from "@studio-freight/lenis";
 
 
 export default function Home() {

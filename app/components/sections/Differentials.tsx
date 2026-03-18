@@ -1,5 +1,4 @@
-"use client";
-import { useRef } from "react";
+
 import { Zap, Shield, Cpu, Code2, Layers } from "lucide-react";
 
 const items = [
@@ -10,12 +9,9 @@ const items = [
 ];
 
 export const Differentials = () => {
-  const container = useRef(null);
-
-
 
   return (
-    <section ref={container} className="py-24 px-6 bg-black">
+    <section  className="py-24 px-6 bg-black">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {items.map((item, i) => (
           <div key={i} className="diff-item flex flex-col items-start">

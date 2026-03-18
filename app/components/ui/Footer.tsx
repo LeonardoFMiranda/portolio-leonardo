@@ -2,7 +2,7 @@ export const Footer = () => (
   <footer className="py-12 px-6 border-t border-muted bg-black">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
       <div>
-        <span className="font-display font-bold text-xl text-white">Dev.Portfolio</span>
+        <span className="font-display font-bold text-xl text-white">Miranda Consultoria</span>
         <p className="text-accent text-sm mt-2">© 2026. Todos os direitos reservados.</p>
       </div>
       <div className="flex gap-6 text-lightGray hover:text-white">

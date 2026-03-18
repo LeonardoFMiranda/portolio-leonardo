@@ -1,0 +1,33 @@
+.carousel {
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    overflow: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.groupWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    animation: infinite-scroll 40s linear infinite;
+    padding-right: 1rem;
+}
+
+.card {
+    flex: 0 0 400px;
+}
+
+@keyframes infinite-scroll {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%;
+    }
+}

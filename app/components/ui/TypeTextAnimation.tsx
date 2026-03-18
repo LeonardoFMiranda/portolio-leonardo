@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 import { useEffect, useState } from "react"
 
 interface Props {
@@ -40,7 +39,7 @@ export default function TypeText({
     return (
         <span className={className}>
             {displayText}
-            <span className="animate-pulse text-gray-400">_</span>
+            <span className="piscar text-gray-400">_</span>
         </span>
     )
 }

@@ -1,4 +1,4 @@
-"use client";
+
 export const Contact = () => {
   const inputStyle = "w-full bg-surface border border-muted p-4 rounded-lg text-white focus:border-white focus:outline-none transition-all duration-300";
 
