@@ -11,6 +11,7 @@ module.exports = {
         surface: "#1F1F1F",
         muted: "#3A3A3A",
         accent: "#9CA3AF",
+        innerCard: "#0d0d0f"
       },
       fontFamily: {
         sans: ['var(--font-inter)'],

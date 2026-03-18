@@ -11,16 +11,14 @@ import { Navbar } from "./components/ui/Navbar";
 export default function Home() {
 
   return (
-    <SmoothScroll>
-      <main className="bg-background min-h-screen selection:bg-accent selection:text-black">
-        <Navbar />
-        <Hero />
-        <Services />
-        <Differentials />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
-    </SmoothScroll>
+    <main className="bg-background min-h-screen selection:bg-accent selection:text-black">
+      <Navbar />
+      <Hero />
+      <Services />
+      <Differentials />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
   );
 }

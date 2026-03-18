@@ -3,13 +3,17 @@
 
 
 body {
-  background-color: #0F0F0F;
+  background-color: #000;
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
 }
 
 .font-display {
   font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
 }
 
 .font-mono {
@@ -36,5 +40,3 @@ body {
 .piscar {
   animation: piscar 1s steps(1, end) infinite;
 }
-
-

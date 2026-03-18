@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import SmoothScroll from "@/app/components/SmoothScroll";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MIRANDA CONSULTORIA",
-  description: "design and develop modern web applications",
+  title: "Leonardo Miranda | Desenvolvedor Full Stack",
+  description:
+    "Portfólio de Leonardo Miranda, desenvolvedor especializado em React, Next.js e aplicações modernas.",
+  keywords: ["React", "Next.js", "Desenvolvedor", "Frontend"],
+  authors: [{ name: "Leonardo Miranda" }],
 };
 
 export default function RootLayout({
@@ -27,7 +31,7 @@ export default function RootLayout({
       <body
         className={`font-mono antialiased`}
       >
-        {children}
+        <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );
