@@ -51,11 +51,11 @@ export const Navbar = () => {
                     <Link href="#services" className="hover:text-white transition-colors" onClick={handleScroll("#services")}>
                         Serviços
                     </Link>
-                    <Link href="#work" className="hover:text-white transition-colors" onClick={handleScroll("#work")}>
-                        Projetos
-                    </Link>
                     <Link href="#differentials" className="hover:text-white transition-colors" onClick={handleScroll("#differentials")}>
                         Diferenciais
+                    </Link>
+                    <Link href="#work" className="hover:text-white transition-colors" onClick={handleScroll("#work")}>
+                        Projetos
                     </Link>
                     <Link href="#contact" className="hover:text-white transition-colors" onClick={handleScroll("#contact")}>
                         Contato
